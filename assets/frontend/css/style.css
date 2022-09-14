@@ -1,0 +1,213 @@
+.top-menu {
+  background: #003366 none repeat scroll 0 0 !important;
+}
+.navbar-default.top-menu .navbar-nav  > li > a {
+  color: #fff;
+}
+.top-menu img {
+  width: 300px;
+}
+.banner-slider h1 {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  color: white;
+}
+.text-banner {
+    background: rgba(242, 242, 242, 0.85) none repeat scroll 0 0;
+    padding: 30px;
+    position: absolute;
+    top: 10px;
+}
+.text-banner p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.text-banner span {
+  color: #003366;
+  font-size: 16px;
+  font-weight: 600;
+}
+.staff-bio {
+  margin-bottom: 30px;
+}
+.text-banner h3 {
+  color: #028805;
+  font-size: 25px;
+}
+.staff-bio ul {
+  padding: 0;
+}
+.staff-bio span {
+  color: #333333;
+  font-size: 15px;
+}
+.About-market h2 {
+  color: #003366;
+  font-size: 28px;
+}
+.About-market {
+  margin-top: 20px;
+}
+.about-img p {
+  color: #333333;
+  text-align: justify;
+  font-size: 15px;
+}
+.staff-market {
+  background: #f4f4f4 none repeat scroll 0 0;
+}
+.staff-bio p {
+  color: #333;
+  font-size: 15px;
+}
+.staff-bio h3 {
+  color: #003366;
+  font-size: 18px;
+  font-weight: 600;
+}
+.service-market h4 {
+  color: #003366 !important;
+  font-size: 17px !important;
+}
+.service-market {
+  margin: 0 auto 0px;
+}
+.service-market p {
+  color: #000000;
+  font-size: 15px;
+}
+.career > h2 {
+  color: #ffcc66;
+    font-size: 32px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.career p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.service-0 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.portfolio-mar{
+	margin-bottom: 0 !important; 
+}
+.footer-matket{
+	    background: #003366 none repeat scroll 0 0;
+    color: #ffcc66;
+    font-size: 13px !important;
+    padding: 60px 0 !important;
+}
+.hj {
+  margin-bottom: 100px !important;
+}
+.items {
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+
+
+
+@media all and (max-width: 768px) {
+	.text-banner{
+		position: relative;
+	}
+	.top-menu img{
+		width: 220px;
+	}
+.staff-market img {
+  display: block;
+  float: none !important;
+  margin: 0 auto;
+}
+.items {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.items img {display: inline;}
+
+.items > div {
+  margin-bottom: 20px;
+}
+
+.hj {
+  margin-bottom: 00px !important;
+}
+
+}
+
+.navbar-default .navbar-nav > li > a.active {
+    border-bottom: 3px solid #ffcc66;
+    color: #ffcc66;
+}
+
+/*------------------------------------contact----------------------------------*/
+
+.contact-form input {
+  height: 60px;
+  border-radius: 0;
+  margin-top: 15px;
+}
+.contact-form label {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.contact-form textarea {
+  border: 1px solid #cccccc;
+  margin-top: 15px;
+  width: 100%;
+}
+.contact-form .btn.btn-primary {
+   background: #ffcc66 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #003366;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    margin-top: 27px;
+    text-transform: uppercase;
+    width: 250px;
+}
+#contact-us {
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.tel-email span {
+  color: #ffcc66;
+  margin-right: 5px;
+}
+.tel-email > p {
+  color: #003366;
+  font-weight: 700;
+}
+.contact-banner {
+    min-height: 450px !important;
+}
+.contact-form label span {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+.LI-badge-container-vertical-light.LI-badge-container.vertical.light.medium {
+  display: block !important;
+  float: none !important;
+  margin: 0 auto;
+}

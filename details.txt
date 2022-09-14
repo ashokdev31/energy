@@ -1,0 +1,84 @@
+<?
+Base Url : http://web1.kindlebit.com/handbook/
+Auth Key Parameter : (X-API-KEY) 
+Auth Key : f00b4cc2cc64204d9bef8aadbe99a704fb60e8c3
+
+1) User Login
+URL:-  api/v1/auth/userLogin/
+Method:- POST
+Parameter:- (email, password, device_type, device_token)
+Messages :- Code:400 ->"Bad request."
+		  	Code:200 ->"User login successfully."
+		  	Code:203 ->"Email does not exists."
+	  		Code:300->"Invalid email or password."
+
+
+2) Update Token
+URL:-  api/v1/auth/updateToken/
+Method:- POST
+Parameter:- (user_id, device_type, device_token)
+device_type: (for android - android, for ios - ios)
+Messages :- Code:400 ->"Bad request."
+		  	Code:200 ->"Updated successfully."
+		  	Code:201 ->"Error while updating data."
+
+
+
+
+3) Get profile 
+URL:-  api/v1/auth/getProfile/
+Method:- POST
+Parameter:- (user_id)
+Messages :- Code:400 ->"Bad request."
+			Code:300 ->"No record found."		  	
+			Code:200 ->"Records found."
+
+
+
+4) Get Events 
+URL:-  api/v1/auth/getEvents
+Method:- POST
+Parameter:- (selected_users_id)
+Messages :- Code:400 ->"Bad request."
+			Code:300 ->"No record found."		  	
+			Code:200 ->"Records found."
+
+
+
+5) update Profile
+URL:- api/v1/auth/updateProfile
+Method:- POST
+Parameter:- (id,first_name,last_name,country,city,state,phone,country_phone_code,address,user_image)
+Messages :- Code:400 ->"Bad request."
+			Code:300 ->"No record found."		  	
+			Code:200 ->"Records found."
+
+
+6)Forget Password
+URL:- api/v1/auth/forgotPassword
+Method:- POST
+Parameter:- (email)
+Messages :- Code:400 ->"Bad request."
+			Code:300 ->"No record found."		  	
+			Code:200 ->"Records found."
+
+7) get All users Api:
+URL:- api/v1/auth/getAllUsers
+Method:- POST
+Parameter:- (user_id)
+Messages :- Code:400 ->"Bad request."
+   Code:300 ->"No record found."     
+   Code:200 ->"Records found."
+Data:- user_image(Url),user_name,rating.  
+
+
+
+
+
+
+
+
+
+
+
+		  	
